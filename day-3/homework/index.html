@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/day-3/homework/css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+
+<title>F1 API Call</title>
+</head>
+<body>
+
+    <nav class="row">
+        <h3 class="col-12 col-lg-3">F1 Racer API Data</h3>
+
+    </nav>
+    <div class="inputs">
+        <div class="input-text">
+            <input type="text" placeholder="Year" id="year" oninput="clearData()">
+        </div> 
+        <div class="input-text">
+            <input type="text" placeholder="Round" id="round" oninput="clearData()">
+        </div>
+
+        <button class="btn btn-primary mx-3" onclick="loadData()">Rankings</button>
+    </div>
+    <div class="row ranks">
+        <h4 class="position col-12 col-md-2">Position</h4>
+
+        <h4 class="driver_name col-12 col-md-3">Name</h4>
+
+        <h4 class="nationality col-12 col-md-3">Nationality</h4>
+
+        <h4 class="sponser col-12 col-md-2">Sponsor</h4>
+
+        <h4 class="points col-12 col-md-2">Points</h4>
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

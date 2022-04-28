@@ -1,0 +1,83 @@
+body{
+    background-image: url("/day-3/homework/images/initiald\ drift.jpg");
+}
+
+nav{
+    display: grid;
+    gap: 1rem;
+    height: 70px;
+    text-align: right;
+    align-items: baseline;
+    background-color: rgb(54, 54, 54);
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    color: black;
+}
+
+.inputs{
+    padding-top: 4rem;
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    color: black;
+}
+
+.inputs button{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(54, 54, 54);
+    border-radius: .5rem;
+    color:white;
+}
+
+.input-text input{
+    width: 160px;
+    height: 50px;
+    border-radius: .5rem;
+    border: solid 1px black;
+    padding-left: .8rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(54, 54, 54);
+}
+
+.ranks{
+    padding: 1rem;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    border: solid 1px black;
+    margin-top: 5rem;
+    color: white;
+    background-color: white;
+    background-image: url("/day-3/homework/images/F1_logo.png");
+}
+
+.new-rank{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 3rem;
+    color: white;
+
+}
+
+.new-rank h4{
+    font-size: 18px;
+}
+
+.points{
+    text-align: center;
+}
