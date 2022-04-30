@@ -1,0 +1,18 @@
+*{
+    color: red;
+}
+body{
+    padding:2em;
+    background-image:url(../images/weather2.webp) ;
+    background-size: cover;
+}
+
+h1{
+    align-items: center;
+    color: red;
+}
+body{
+    padding:2em;
+    background-image:url(../images/weather2.webp) ;
+    background-size: cover;
+}
